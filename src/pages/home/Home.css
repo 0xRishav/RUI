@@ -1,0 +1,20 @@
+.home__sideNav {
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home__sideNavLink {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem;
+  cursor: pointer;
+  display: inline;
+}
+
+.home__sideNavLink:hover {
+  background: #f2f2f2;
+  border-radius: 0.2rem;
+}
