@@ -1,0 +1,38 @@
+.Btn__primary {
+  background: var(--light-blue-clr);
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin: 8px 16px;
+  cursor: pointer;
+  color: white;
+  margin-left: 0;
+}
+
+.Btn__primary:hover {
+  background: var(--bright-light-blue-clr);
+}
+.Btn__secondary {
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin: 8px 16px;
+  cursor: pointer;
+  border: 1px solid var(--light-blue-clr);
+  background: transparent;
+  color: var(--light-blue-clr);
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  margin-right: 0;
+}
+.Btn__secondary:hover {
+  /* border: none; */
+  background: var(--light-blue-clr);
+  color: white;
+}
+
+.Btn--floating {
+    padding: 8px;
+    border-radius: 100%;
+  }

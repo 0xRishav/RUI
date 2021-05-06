@@ -1,0 +1,28 @@
+.navbar__wrapper {
+  width: 100%;
+  background: var(--light-grey);
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.navbar {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__linksWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar__link {
+  margin: 0 1rem;
+  text-decoration: none;
+}
