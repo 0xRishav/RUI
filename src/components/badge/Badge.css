@@ -1,0 +1,22 @@
+.Badge {
+  position: relative;
+}
+.Badge__span {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.Badge__span--red {
+  background-color: #f93154;
+}
+.Badge__span--green {
+  background-color: #00b74a;
+}
+
+.Badge__image {
+  width: 100px;
+  height: auto;
+}

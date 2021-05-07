@@ -1,0 +1,28 @@
+.Success {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #00b7493d;
+  border: #00b74a 1px solid;
+  border-radius: 12px;
+}
+.Danger {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #b4516242;
+  border: #f93154 1px solid;
+  border-radius: 12px;
+}
+.Warning {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #ffaa0042;
+  border: #ffa900 1px solid;
+  border-radius: 12px;
+}
+.Info {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #39c0ed4d;
+  border: #39c0ed 1px solid;
+  border-radius: 12px;
+}

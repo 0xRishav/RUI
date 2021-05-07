@@ -1,0 +1,41 @@
+.textVideoCard {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin: 1rem;
+  color: var(--text-video-card-bg);
+}
+
+.textVideoCard__infoWrapper {
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textVideoCard__coverPhoto {
+  height: 120px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 32px;
+  box-shadow: 0 4px 7px rgb(0 0 0 / 25%);
+  cursor: pointer;
+}
+
+.textVideoCard__organiser {
+  font-size: 0.8rem;
+}
+.textVideoCard__description {
+  font-size: 0.8rem;
+}
+.textVideoCard__title {
+  font-size: 1.3rem;
+  margin: 4px 0;
+}
+
+.textVideoCard__link {
+  text-decoration: none;
+}
