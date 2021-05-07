@@ -5,7 +5,7 @@
   align-items: center;
   text-align: left;
   margin: 1rem;
-  color: #313131;
+  color: var(--text-video-card-bg);
 }
 
 .textVideoCard__infoWrapper {

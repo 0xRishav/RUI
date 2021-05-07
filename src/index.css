@@ -2,6 +2,9 @@
   --light-grey: #f3f3f3;
   --light-blue-clr: #06c;
   --bright-light-blue-clr: #0c82ff;
+  --badge-red-clr-clr: #f93154;
+  --badge-green-clr: #00b74a;
+  --text-video-card-bg: #313131;
 }
 
 body {
@@ -35,4 +38,3 @@ code {
   justify-content: flex-start;
   align-items: center;
 }
-

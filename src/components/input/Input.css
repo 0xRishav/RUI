@@ -1,18 +1,18 @@
 .form__group {
   position: relative;
-  padding: 15px 0 0;
-  margin-top: 10px;
+  padding: 1rem 0 0;
+  margin-top: 0.8rem;
   width: 100%;
 }
 .form__field {
   font-family: inherit;
   width: 100%;
   border: 0;
-  border-bottom: 2px solid #9b9b9b;
+  border-bottom: 0.1rem solid #9b9b9b;
   outline: 0;
   font-size: 1.3rem;
   color: black;
-  padding: 7px 0;
+  padding: 0.4rem 0;
   background: transparent;
   transition: border-color 0.2s;
 }
@@ -22,7 +22,7 @@
 .form__field:placeholder-shown ~ .form__label {
   font-size: 1.3rem;
   cursor: text;
-  top: 20px;
+  top: 1.2rem;
 }
 .form__label {
   position: absolute;
@@ -33,9 +33,9 @@
   color: #9b9b9b;
 }
 .form__field:focus {
-  padding-bottom: 6px;
+  padding-bottom: 0.3rem;
   font-weight: 700;
-  border-width: 3px;
+  border-width: 0.1rem;
   border-image: linear-gradient(to right, #11998e, #38ef7d);
   border-image-slice: 1;
 }
@@ -52,4 +52,9 @@
 .form__field:required,
 .form__field:invalid {
   box-shadow: none;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
 }

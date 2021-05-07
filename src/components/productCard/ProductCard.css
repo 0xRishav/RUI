@@ -6,7 +6,6 @@
   height: 300px;
   object-fit: contain;
   border-radius: 16px;
-  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
   transition: all 0.3s ease-in-out;
   padding: 16px;
 }
@@ -24,15 +23,8 @@
 }
 
 .Product__buttonWrapper {
-  /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; */
   margin: auto;
 }
-/* .Product__buttonWrapper > * {
-    width: 100%;
-  } */
 .Product__button--primary {
   background: var(--light-blue-clr);
   border: none;
@@ -66,7 +58,6 @@
 
 .Product__offerWrapper {
   display: flex;
-  /* flex-direction: column; */
   justify-self: flex-start;
   align-items: center;
   width: 100%;

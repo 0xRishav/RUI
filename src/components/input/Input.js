@@ -3,7 +3,7 @@ import "./Input.css";
 
 function Input() {
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div className="input">
       <div class="form__group field">
         <input
           type="input"
