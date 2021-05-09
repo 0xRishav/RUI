@@ -25,4 +25,5 @@
 .navbar__link {
   margin: 0 1rem;
   text-decoration: none;
+  cursor: pointer;
 }
