@@ -1,17 +1,29 @@
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ isHomePage, setIsHomePage }) => {
+  console.log(isHomePage);
+  console.log(setIsHomePage);
   return (
     <div className="navbar__wrapper">
       <div className="navbar">
         <div className="logo">RUI</div>
         <div className="navbar__linksWrapper">
-          <a href="#" className="navbar__link">
+          <div
+            className="navbar__link"
+            onClick={() => {
+              setIsHomePage(true);
+            }}
+          >
             Docs
-          </a>
-          <a href="#" className="navbar__link">
+          </div>
+          <div
+            className="navbar__link"
+            onClick={() => {
+              setIsHomePage(false);
+            }}
+          >
             Usage
-          </a>
+          </div>
           <caption>v1.0</caption>
         </div>
       </div>
